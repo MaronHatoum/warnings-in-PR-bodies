@@ -1,6 +1,5 @@
 {
-	"dependencies": {
-		"lodash": "4.6.1",
-		"dummyDependency": "^1.1.1"
-	}
+  "dependencies": {
+    "six": "^0.0.10"
+  }
 }
