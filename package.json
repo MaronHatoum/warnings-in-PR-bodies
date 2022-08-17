@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "six": "^0.0.10",
+    "six": "^0.0.12",
     "dummyDep": "^1.0.1"
   }
 }
