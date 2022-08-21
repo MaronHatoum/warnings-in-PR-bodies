@@ -1,0 +1,9 @@
+{
+  "extends": ["github>whitesource/merge-confidence:beta",":disableRateLimiting"],
+  "packageRules": [
+    {
+      "groupName": "all deps",
+      "matchPaths": ["+(package.json)"]
+    }
+  ]
+}
