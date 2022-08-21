@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "groupName": "all deps",
+      "matchUpdateTypes": ["patch", "minor", "major"],
       "matchPaths": ["+(package.json)"]
     }
   ]
