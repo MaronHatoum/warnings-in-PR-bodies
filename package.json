@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "six": "^0.0.10",
+    "mongodb": "^3.7.0",
     "dummyDep": "^1.0.1"
   }
 }
