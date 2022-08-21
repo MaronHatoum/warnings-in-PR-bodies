@@ -1,9 +1,12 @@
 {
   "extends": ["github>whitesource/merge-confidence:beta",":disableRateLimiting"],
+  
+  "major": {
+    "enabled": false
+  },
   "packageRules": [
     {
       "groupName": "all deps",
-      "matchUpdateTypes": ["patch", "minor", "major"],
       "matchPaths": ["+(package.json)"]
     }
   ]
